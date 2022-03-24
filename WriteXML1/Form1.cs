@@ -14,7 +14,7 @@ namespace WriteXML1
 {
     public partial class Form1 : Form
     {
-        SqlConnection con = new SqlConnection("Data Source=Oyunjargal_g;Initial Catalog=MICS;User Id=sa;Password=Nso123456");
+        SqlConnection con = new SqlConnection("Data Source=Oyunjargal_g;Initial Catalog=MICS;User Id=qw;Password=123456");
         DataSet ds = null;
         SqlCommand cmd = null;
         SqlDataAdapter sda = null;
@@ -27,7 +27,7 @@ namespace WriteXML1
         {
             string str = "";
             XmlDocument doc = new XmlDocument();
-            doc.Load(@"C:\Users\oyunjargal_g\Desktop\test.xml");
+            doc.Load(@"\test.xml");
 
 
 
